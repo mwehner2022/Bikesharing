@@ -15,7 +15,6 @@ A client wishes to start a bike share business in Des Moines, Ioha based on the 
 ## **Results**
 The final results can be viewed in story format at:  [link to dashboard](https://public.tableau.com/app/profile/megan.richard8454/viz/CitiBikeProposal_16747812706880/BikeSharingData)
 
-
 #### Change Trip Duration to a Datetime Format:
 The "tripduration" column in the 201908-citibike-tripdata.csv file was changed from an integer to a datetime datatype in the form of hours, minutes, and seconds (00:00:00) using Python and Pandas functions. After it was converted, the data frame was exported as a CSV file to use for goal  2.
 
@@ -49,6 +48,7 @@ Based on the analysis done to the cvs file in Tableau the following summaries ca
 - Usage time would be highest during the 8am-10am time frame as well as 5pm-7pm Monday through Friday. During this time frame most of the users would be Male subscribers suggesting they are commuting to work. Female Subscribers also follow this trend but in less numbers. Bikes should be stationed around city offices to support this need. Any operations done to the bikes should be done outside of the peak usage time frames. 
 - Regular customers do not have distinct usage patterns.
 - Most riders will use the bikes for around 6 minutes.
+
 Additional information is needed to validate the business proposal. Additional visualizations that would be useful are:
 1. A graph that shows usage trends by user type and gender throughout the year to confirm the business is profitable year long.
 2. Usage trends based on weather and weather trends throughout the year.
